@@ -15,6 +15,18 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+  - pymdownx.superfences:
+        preserve_tabs: true
+        custom_fences:
+            # Mermaid diagrams
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+extra_javascript:
+    - optionalConfig.js
+    - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
+    - extra-loader.js
+
 extra:
   generator: false
   social:
