@@ -31,3 +31,4 @@ nav:
   - Introductie: 'index.md'
   - Process: 'stappen.md'
   - Endpoints: 'endpoints.md'
+  - ProductSynchronizer: "product-synchronizer.md"
