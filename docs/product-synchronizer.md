@@ -3,7 +3,7 @@
 Het synchroniseren van producten gebeurt in een aantal stappen, hieronder beschreven.
 
 ```mermaid
-graph TD; 
+graph TD
     id1[1. ProductProviderInterface] --> 
     id8[/ProductCollection/] --> 
     id2[2. ProductAttributeResolverInterface] -->
