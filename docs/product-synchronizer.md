@@ -27,3 +27,4 @@ graph TD;
 5. De **ProductConfigurableConnectInterface** verbindt de simpele producten met de configureerbare producten.
 6. De **ProductSiteConnectorInterface** verbindt de producten met de juiste websites
 7. De **StockUpdateSynchronizerInterface** voert een initiële voorraadupdate uit voor de zojuist geïmporteerde producten.
+

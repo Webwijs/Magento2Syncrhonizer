@@ -30,5 +30,5 @@ extra:
 nav:
   - Introductie: 'index.md'
   - Process: 'stappen.md'
-  - Endpoints: 'endpoints.md'
+  - Roadmap: 'roadmap.md'
   - ProductSynchronizer: "product-synchronizer.md"
