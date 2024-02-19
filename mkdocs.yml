@@ -44,3 +44,4 @@ nav:
   - Roadmap: 'roadmap.md'
   - ProductSynchronizer: "product-synchronizer.md"
   - StockSynchronizer: "stock-synchronizer.md"
+  - OrderExportSynchronizer: "order-export-synchronizer.md"
