@@ -41,6 +41,6 @@ extra:
       name: Webwijs op Linkedin
 nav:
   - Introductie: 'index.md'
-  - Process: 'stappen.md'
   - Roadmap: 'roadmap.md'
   - ProductSynchronizer: "product-synchronizer.md"
+  - StockSynchronizer: "stock-synchronizer.md"
