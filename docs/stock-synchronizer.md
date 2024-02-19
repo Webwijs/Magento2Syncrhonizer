@@ -23,3 +23,19 @@ Het is ook mogelijk om een lijst van SKU's mee te geven om alleen de voorraad va
 De huidige implementatie van de `StockUpdateStorageInterface` is `Webwijs\M2ProductSynchronizer\Stock\DefaultDbStockUpdateStorage`.
 
 Deze implementatie slaat de voorraadupdates rechtstreeks op in de database via "kale" SQL queries.
+
+## Gebruik
+
+De StockSynchronizer wordt net als alle synchronizers aangeroepen met een CLI-commando.
+
+De voorraad bijwerken aan de hand van de laatste `Stock ID`.
+
+`php bin/magento synchronizer:stock`
+
+De voorraad bijwerken voor 1 product.
+
+`php bin/magento synchronizer:stock --sku=123456`
+
+De voorraad bijwerken voor een verzameling producten.
+
+`php bin/magento synchronizer:stock --sku=123456,123457`
